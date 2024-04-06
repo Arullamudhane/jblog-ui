@@ -6,38 +6,57 @@ import WhatshotTwoToneIcon from "@mui/icons-material/WhatshotTwoTone";
 export function Home() {
   const contents = [
     {
-      title: "TIT TIT TIT1",
+      title: "Connect Git to Snowflake, now in Public Preview",
       date: "2 Jan 2023",
       duration: "20 mins",
       author: "jeevqn",
     },
     {
-      title: "TIT TIT TIT1",
+      title: "Connect Git to Snowflake, now in Public Preview",
       date: "2 Jan 2023",
       duration: "20 mins",
       author: "jeevqn",
     },
     {
-      title: "TIT TIT TIT1",
+      title:
+        "Connect Git to Snowflake, now in Public Preview Connect Git to Snowflake, now in Public Preview",
       date: "2 Jan 2023",
       duration: "20 mins",
       author: "jeevqn",
     },
     {
-      title: "TIT TIT TIT1",
+      title: "Connect Git to Snowflake, now in Public Preview",
       date: "2 Jan 2023",
       duration: "20 mins",
       author: "jeevqn",
     },
     {
-      title: "TIT TIT TIT1",
+      title: "Connect Git to Snowflake, now in Public Preview",
       date: "2 Jan 2023",
       duration: "20 mins",
       author: "jeevqn",
     },
 
     {
-      title: "TIT TIT TIT1",
+      title: "Connect Git to Snowflake, now in Public Preview",
+      date: "2 Jan 2023",
+      duration: "20 mins",
+      author: "jeevqn",
+    },
+    {
+      title: "Connect Git to Snowflake, now in Public Preview",
+      date: "2 Jan 2023",
+      duration: "20 mins",
+      author: "jeevqn",
+    },
+    {
+      title: "Connect Git to Snowflake, now in Public Preview",
+      date: "2 Jan 2023",
+      duration: "20 mins",
+      author: "jeevqn",
+    },
+    {
+      title: "Connect Git to Snowflake, now in Public Preview",
       date: "2 Jan 2023",
       duration: "20 mins",
       author: "jeevqn",
@@ -58,13 +77,13 @@ export function Home() {
         <div className='tc'>
           {contents.map((content, index) => (
             <div className='tc__content_with_num'>
-              {index}
+              <div className='tc__index'>0{index}</div>
               <div className='tc__content'>
-                <h4>{content.author}</h4>
-                <h2>{content.title}</h2>
+                <h4 className='author'>{content.author}</h4>
+                <h2 className='title'>{content.title}</h2>
                 <div className='tc__time'>
-                  <p>{content.date}</p>
-                  <p>{content.duration}</p>
+                  <p className='date'>{content.date}</p>
+                  <p className='duration'>{content.duration}</p>
                 </div>
               </div>
             </div>

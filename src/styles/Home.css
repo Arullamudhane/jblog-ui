@@ -35,10 +35,43 @@
     height: 6vh;
   }
 
+  .tc__index {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-color: #ece8e8;
+    width: 3vw;
+    height: 100%;
+    font-family: 'Reddit Mono', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+  }
+
+  .tc__content .author {
+    /* width: 9%; */
+    height: 3vh;
+    background-color: #333;
+    padding-left: 1vw;
+
+  }
+
+  .tc__title {
+    padding-left: 1vw;
+  }
+  
+  .tc__content .title {
+
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-size: 2vh;
+  
+  }
+
+
   .trending__container {
-    background-color: rgb(228, 152, 152);
+    background-color: rgb(165, 41, 140);
     height: 50vh;
-    margin: 4vh 8vw;
+    margin: 4vh 5vw;
   }
 
   .tc {
@@ -50,7 +83,7 @@
 
   .tc__content {
     width: 25vw;
-    height: 24vh;
+    height: 14vh;
     background-color: chartreuse;
     border: 1px solid #333;
     display: flex;
@@ -70,10 +103,15 @@
 
   .tc__time {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-starts;
     align-items: center;
     flex-direction: row;
     width: 100%;
+    padding: 1vh 0.3vw;
+  }
+
+  .tc__time .duration {
+    padding-left: 1.4vw;
   }
 
   .tc__content_with_num {
