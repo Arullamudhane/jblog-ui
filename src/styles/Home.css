@@ -1,0 +1,83 @@
+.home-nav {
+    width: 100vw;
+    height: 6vh;
+    background-color: red;
+}
+
+.home-nav {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .home-nav p {
+    text-align: center;
+    flex-grow: 1;
+     }
+  
+  .hamburger {
+    margin-right: 2%;
+    width: 3%; /* Adjust the width as needed */
+    height: 70%; /* Adjust the height as needed */
+    background-color: #333; /* Add your desired background color */
+    /* You can customize the hamburger icon styles (e.g., three horizontal lines) */
+  }
+
+  .top-banner{
+    background-color: aqua;
+    height: 37vh;
+    width: 100vw;
+  }
+
+  .search-bar__container {
+    background-color: aquamarine;
+    height: 6vh;
+  }
+
+  .trending__container {
+    background-color: rgb(228, 152, 152);
+    height: 50vh;
+    margin: 4vh 8vw;
+  }
+
+  .tc {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+
+  .tc__content {
+    width: 25vw;
+    height: 24vh;
+    background-color: chartreuse;
+    border: 1px solid #333;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .suggestion__container {
+    background-color: rgb(174, 20, 20);
+    height: 50vh;
+  }
+
+  h1, h2, h3, h4 {
+    margin: 0;
+  }
+
+  .tc__time {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .tc__content_with_num {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
