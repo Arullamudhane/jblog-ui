@@ -1,129 +1,271 @@
 .home-nav {
-    width: 100vw;
-    height: 6vh;
-    /* background-color: red; */
+  /* width: 99.7vw; */
+  height: 6vh;
+  /* background-color: red; */
 }
 
 .home-nav {
-    display: flex;
-    /* justify-content: space-between; */
-    align-items: center;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 10px;
+  background-color: aqua;
+}
+
+.home-nav p {
+  text-align: center;
+  flex-grow: 1;
+}
+
+.hamburger {
+  margin-right: 2%;
+  width: 3%;
+  /* Adjust the width as needed */
+  height: 70%;
+  /* Adjust the height as needed */
+  /* background-color: #333; Add your desired background color */
+  /* You can customize the hamburger icon styles (e.g., three horizontal lines) */
+}
+
+.top-banner {
+  /* background-color: rgba(78, 170, 186, 0.543); */
+  background: linear-gradient(0.25turn, #3f87a6, #9dda6e, #3ee141);
+  ;
+  height: 37vh;
+  display: flex;
+  justify-content: center;
+  /* width: 100vw; */
+}
+
+.search-bar__container {
+  background-color: aquamarine;
+  height: 6vh;
+}
+
+
+/* 
+
+*/
+
+.tc__index {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  /* background-color: #ece8e8; */
+  margin-top: 0.6rem;
+  color: #edeaea;
+  width: 3vw;
+  height: 100%;
+  font-family: 'Reddit Mono', sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem
+}
+
+.tc__content .author {
+  /* width: 9%; */
+  /* height: 3vh; */
+  /* background-color: #333; */
+  padding-left: 1vw;
+  font-size: 1rem;
+  /* font-family: cursive; */
+  letter-spacing: -0.5px;
+  font-weight: 600;
+  color: #211e1e;
+}
+
+.tc__title {
+  padding-left: 1vw;
+}
+
+.tc__content .title {
+
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 800;
+  font-size: 1rem;
+  padding: 3% 0%;
+
+}
+
+
+.trending__container {
+  /* background-color: rgb(165, 41, 140); */
+  /* height: 50vh; */
+  margin: 4vh 3vw;
+}
+
+.suggestion__container {
+  /* background-color: rgb(165, 41, 140); */
+  height: 50vh;
+  margin: 4vh 4vw;
+}
+
+
+
+
+
+
+.tc__content:hover {
+  /* box-shadow: 10px 5px 5px rgb(23, 181, 92); */
+  box-shadow: 7px 3px 3px 1px rgba(22, 173, 27, 0.564);
+  cursor: pointer;
+
+}
+
+.tc__content {
+  /* width: 25vw; */
+  height: 15.5vh;
+  /* background-color: chartreuse; */
+  padding: 0px 1rem;
+  margin: 0.5rem 0;
+  border: 0.6px solid #e0dcdc;
+  border-radius: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  display: grid;
+  box-shadow: 7px 3px 3px rgb(151, 165, 157);
+  grid-template-rows: 15% 60% 15%;
+}
+
+.suggestion__container {
+  /* background-color: rgb(174, 20, 20); */
+  height: 50vh;
+}
+
+
+.tc__time {
+  display: flex;
+  justify-content: flex-starts;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  /* padding-left: 1vh; */
+  margin: 0;
+  padding: 0.4vh 0 1vh 1vh;
+  /* font-size: small; */
+  font-size: 1rem;
+}
+
+
+.tc__time .duration {
+  padding-left: 1.4vw;
+}
+
+.tc__content_with_num {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.suggestion__container .tc__content {
+  box-shadow: 7px 3px 3px rgb(215, 214, 214);
+}
+
+.suggestion__container .tc__content:hover {
+  box-shadow: 8px 4px 4px 1px rgba(25, 107, 231, 0.564);
+  cursor: pointer;
+
+}
+
+.sug__title,
+.tc__title {
+  font-size: 1.23rem;
+  font-weight: 500;
+  letter-spacing: -0.4px;
+  color: #706e6e;
+}
+
+.banner-img {
+  display: flex;
+  /* align-items: center; */
+  /* align-self: center; */
+  /* justify-self: center; */
+  /* justify-content: center; */
+  height: 100%;
+  width: 40%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+
+/* 
+@media (max-width: 480px) {
+  body {
+    background-color: red;
+  }
+} */
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 400px) and (max-width: 767px) {
+  body {
+    /* background-color: yellow; */
+  }
+
+  .tc {
+    display: grid;
+    grid-template-columns: auto;
+    /* background-color: #2196F3; */
     padding: 10px;
-  }
-  
-  .home-nav p {
-    text-align: center;
-    flex-grow: 1;
-     }
-  
-  .hamburger {
-    margin-right: 2%;
-    width: 3%; /* Adjust the width as needed */
-    height: 70%; /* Adjust the height as needed */
-    /* background-color: #333; Add your desired background color */
-    /* You can customize the hamburger icon styles (e.g., three horizontal lines) */
+
+
   }
 
-  .top-banner{
-    /* background-color: aqua; */
-    height: 37vh;
-    width: 100vw;
+  .tc__content {
+    width: 70vw;
   }
 
-  .search-bar__container {
-    /* background-color: aquamarine; */
-    height: 6vh;
-  }
 
   .tc__index {
     display: flex;
     justify-content: center;
     align-items: start;
     /* background-color: #ece8e8; */
-    width: 3vw;
+    margin-top: 1rem;
+    color: #edeaea;
+    /* width: 3vw; */
     height: 100%;
     font-family: 'Reddit Mono', sans-serif;
     font-weight: 600;
-    font-size: 30px;
-  }
-
-  .tc__content .author {
-    /* width: 9%; */
-    /* height: 3vh; */
-    /* background-color: #333; */
-    padding-left: 1vw;
-
-  }
-
-  .tc__title {
-    padding-left: 1vw;
-  }
-  
-  .tc__content .title {
-
-  font-family: "Noto Sans JP", sans-serif;
-  font-weight: 700;
-  font-size: 2vh;
-  padding-top: 3.5%;
-  
+    font-size: 2rem;
+    padding-right: 1.7rem;
   }
 
 
-  .trending__container {
-    /* background-color: rgb(165, 41, 140); */
-    height: 50vh;
-    margin: 4vh 5vw;
-  }
+}
 
+
+
+
+/* Media Query for Laptops and Desktops */
+@media (min-width:768px) and (max-width: 1099px) {
   .tc {
     display: grid;
-    grid-template-columns: auto auto auto ;
+    grid-template-columns: auto auto;
+    /* background-color: #2196F3; */
+    padding: 10px;
+  }
+
+  .tc__content {
+    width: 38vw;
+  }
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1099px) {
+  .tc {
+    display: grid;
+    grid-template-columns: auto auto auto;
     /* background-color: #2196F3; */
     padding: 10px;
   }
 
   .tc__content {
     width: 25vw;
-    height: 14vh;
-    /* background-color: chartreuse; */
-    border: 0.4px solid #333;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-    display: grid;
-
-    grid-template-rows: 15% 60% 15%;
   }
-
-  .suggestion__container {
-    /* background-color: rgb(174, 20, 20); */
-    height: 50vh;
-  }
-
-  h1, h2, h3, h4 {
-    margin: 0;
-  }
-
-  .tc__time {
-    display: flex;
-    justify-content: flex-starts;
-    align-items: center;
-    flex-direction: row;
-    width: 100%;
-    /* padding-left: 1vh; */
-    margin: 0;
-    padding: 0.4vh 0 1vh 1vh;
-    font-size: small;
-  }
-
-
-  .tc__time .duration {
-    padding-left: 1.4vw;
-  }
-
-  .tc__content_with_num {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-  }
+}
