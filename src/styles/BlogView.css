@@ -1,0 +1,111 @@
+.blog-container {
+    /* background-color: rgb(225, 225, 28); */
+}
+
+.bc__title {
+    /* background-color: aquamarine; */
+    /* font-style: italic; */
+    font-size: 1.8rem;
+    line-height: 8vh;
+}
+
+.bc__title__details {
+    background-color: rgb(248 248 248);
+    height: 20vh;
+    padding: 2.5vh 0;
+}
+
+.btd__details1_auth {
+    height: auto;
+    /* background-color: rgb(190, 188, 188); */
+}
+
+.btd__details1 {
+    display: flex;
+    background-color: white;
+    height: 8vh;
+    /* justify-content: center; */
+}
+
+.btd__details1_duration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1vw;
+}
+
+.btd__details1_duration .auth_name {
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.btd__details1_duration .time,
+.posted_time {
+    padding-left: 4vw;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.btd__details1_auth .profilePic {
+    height: 7vh;
+    width: 3vw;
+    border-radius: 100%;
+    padding-right: 1vw;
+}
+
+.bc__nav {
+
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 10px;
+    background-color: aqua;
+    height: 6vh;
+}
+
+.bc__nav p {
+    text-align: center;
+    flex-grow: 1;
+    /* font-size: 8rem; */
+    font-weight: 300;
+}
+
+/*  */
+/* title details 2 in blog view page */
+.btd__details2 {
+    /* float: bottom; */
+    background-color: aquamarine;
+    height: 7vh;
+}
+
+.btd__details2 .icon_heart {
+    size: 40vh;
+}
+
+
+.hamburger {
+    margin-right: 2%;
+    width: 3%;
+    /* Adjust the width as needed */
+    height: 70%;
+}
+
+.bc__title__container {
+    margin: 2vh 11vw;
+}
+
+.blog__body {
+    margin: 2vh 11vw;
+
+    font-size: 1.5rem;
+    line-height: 35px;
+    letter-spacing: 0.3px;
+
+
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 50px !;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}

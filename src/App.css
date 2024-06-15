@@ -1,0 +1,6 @@
+.link-style {
+    text-decoration: none;
+    /* Remove underline */
+    color: inherit;
+    /* Use the color of the parent element */
+}

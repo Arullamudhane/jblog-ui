@@ -1,3 +1,7 @@
+body {
+  overflow-y: auto;
+}
+
 .home-nav {
   /* width: 99.7vw; */
   height: 6vh;
@@ -9,7 +13,7 @@
   /* justify-content: space-between; */
   align-items: center;
   padding: 10px;
-  background-color: aqua;
+  background-color: rgb(225, 230, 230);
 }
 
 .home-nav p {
@@ -29,8 +33,9 @@
 
 .top-banner {
   /* background-color: rgba(78, 170, 186, 0.543); */
-  background: linear-gradient(0.25turn, #3f87a6, #9dda6e, #3ee141);
-  ;
+  /* background: linear-gradient(0.25turn, #3f87a6, #9dda6e, #3ee141); */
+  /* background-color: rgb(255, 255, 255); */
+  background: linear-gradient(0.25turn, #ffffff, #f0f0f0, #cccccc);
   height: 37vh;
   display: flex;
   justify-content: center;
@@ -38,7 +43,7 @@
 }
 
 .search-bar__container {
-  background-color: aquamarine;
+  background-color: rgb(198, 198, 198);
   height: 6vh;
 }
 
@@ -106,14 +111,14 @@
 
 .tc__content:hover {
   /* box-shadow: 10px 5px 5px rgb(23, 181, 92); */
-  box-shadow: 7px 3px 3px 1px rgba(22, 173, 27, 0.564);
+  box-shadow: 5px 1px 2px rgba(22, 173, 27, 0.564);
   cursor: pointer;
 
 }
 
 .tc__content {
   /* width: 25vw; */
-  height: 15.5vh;
+  height: 120px;
   /* background-color: chartreuse; */
   padding: 0px 1rem;
   margin: 0.5rem 0;
@@ -124,7 +129,7 @@
   align-items: flex-start;
   flex-direction: column;
   display: grid;
-  box-shadow: 7px 3px 3px rgb(151, 165, 157);
+  box-shadow: 5px 1px 2px rgb(151, 165, 157);
   grid-template-rows: 15% 60% 15%;
 }
 
@@ -159,11 +164,11 @@
 }
 
 .suggestion__container .tc__content {
-  box-shadow: 7px 3px 3px rgb(215, 214, 214);
+  box-shadow: 5px 1px 2px rgb(215, 214, 214);
 }
 
 .suggestion__container .tc__content:hover {
-  box-shadow: 8px 4px 4px 1px rgba(25, 107, 231, 0.564);
+  box-shadow: 5px 1px 2px rgba(25, 107, 231, 0.564);
   cursor: pointer;
 
 }
@@ -252,7 +257,22 @@ h4 {
   }
 
   .tc__content {
-    width: 38vw;
+    width: 36vw;
+  }
+
+  .tc__index {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    /* background-color: #ece8e8; */
+    margin-top: 1rem;
+    color: #edeaea;
+    /* width: 3vw; */
+    height: 100%;
+    font-family: 'Reddit Mono', sans-serif;
+    font-weight: 600;
+    font-size: 1.7rem;
+    padding-right: 0.3rem;
   }
 }
 
@@ -266,6 +286,11 @@ h4 {
   }
 
   .tc__content {
-    width: 25vw;
+    width: 24vw;
   }
+
+  /* body {
+    background-color: #211e1e;
+    color: #e0dcdc;
+  } */
 }
