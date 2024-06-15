@@ -68,3 +68,50 @@ p {
   overflow-x: hidden;
   padding: 20px;
 }
+
+.App-header2{
+  background-color: #282c34;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-bottom: 5vh;
+  text-align: center;
+  padding: 12px;
+ }
+ .wrapper-class {
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+.editor-class {
+  background-color:lightgray;
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+.toolbar-class {
+  border: 1px solid #ccc;
+}
+
+.preview {
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.qq {
+  font-family: 'Roboto', 'Open Sans', 'Lato', 'Montserrat', 'Poppins', 'Source Sans Pro', 'Raleway', 'Noto Sans', 'Ubuntu', 'Playfair Display', 'Merriweather', 'Nunito', 'PT Sans', 'Quicksand', 'Inter', 'Work Sans', 'Cabin', 'Bebas Neue', 'Oswald', 'Rubik', sans-serif;
+}
+.preview {
+  /* font-family: 'Roboto', 'Open Sans', 'Lato', 'Montserrat', 'Poppins', 'Source Sans Pro', 'Raleway', 'Noto Sans', 'Ubuntu', 'Playfair Display', 'Merriweather', 'Nunito', 'PT Sans', 'Quicksand', 'Inter', 'Work Sans', 'Cabin', 'Bebas Neue', 'Oswald', 'Rubik', sans-serif; */
+  /* You can add other styles as needed */
+}
+.preview {
+  font-family: 'Roboto', 'Creepster', sans-serif;
+}
+
+.custom-blockquote {
+  border-bottom: 1px solid #e41818; /* Add a horizontal border line */
+  padding-bottom: 10px; /* Add padding to separate the text from the border */
+}
